@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="static/assets/img/favicon.png">
+
+  <title>DCL</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="static/assets/css/navbar.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="../../assets/js/html5shiv.js"></script>
+  <script src="../../assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3" id="sidemenu">
+        <ul class="nav nav-pills nav-stacked affix">
+          <li class="active"><a href="#">カテゴリA</a></li>
+          <li><a href="#">カテゴリB</a></li>
+          <li><a href="#">カテゴリC</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-9 col-sm-9 col-md-9" id="main">
+        <div class="text-center" id="header">
+          <div class="container text-center" >
+            <!-- TITLE ROW -->
+            <div class="row">
+              <div class="col-lg-12 col-sm-12 col-md-12">
+                <h1>タイトル</h1>
+              </div>
+            </div>
+
+            <!-- SEARCH & SORT ROW  -->
+            <div class="row">
+              <div class="col-lg-10 col-sm-10 col-md-10">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <div class="col-sm-8 col-md-8">
+                      <input type="text" class="form-control" id="search" placeholder="Search">
+                    </div>
+                    <div class="col-sm-2 col-md-2">
+                      <button type="submit" class="btn btn-default">検索</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-sm-2 col-md-2">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="sortmenu" data-toggle="dropdown">
+                    ソート
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ソート１</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ソート２</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ソート３</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- CATEGORY ROW  -->
+            <div class="row">
+              <div class="col-lg-12 col-sm-12 col-md-12" id="category">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default">本</button>
+                  <button type="button" class="btn btn-default">PC関連</button>
+                  <button type="button" class="btn btn-default">食品</button>
+                  <button type="button" class="btn btn-default">その他</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contents">
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-danger">貸出中</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 text-center well">
+            <a href="#"><img alt="icon" data-toggle="modal" data-target="#infoModal" src="static/assets/img/icon_default.png" ></a>
+            <p>カビゴン</p>
+            <button type="button" class="btn btn-primary">貸出可</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="infoModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button></p>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 text-center">
+              <img src="static/assets/img/icon_default.png" alt="icon">
+              <button type="button" class="btn btn-primary">貸出可</button>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9">
+              <h3>カビゴン</h3>
+              <p>いねむりポケモン</p>
+              <p>いちにちに　たべものを　４００キロ　たべないと　きがすまない　たべおわると　ねむってしまう</p>
+              <p>いちにちに　たべものを　４００キロ　たべないと　きがすまない　たべおわると　ねむってしまう</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">閉じる</button>
+          <button class="btn btn-primary">完了</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="static/vendor/js/jquery-2.0.3.min.js"></script>
+  <script src="static/vendor/js/bootstrap.min.js"></script>
+</body>
+</html>
